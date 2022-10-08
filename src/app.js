@@ -91,9 +91,9 @@ function initWebGLOverlayView(map) {
   initWebGLOverlayView(map);
 
   const ctaLayer = new google.maps.KmlLayer({
-    src: "./cta.kml",
+    url: "https://raw.githubusercontent.com/trudypainter/internet-mirror/main/src/history-2022-10-07.kml",
     map: map,
   });
-  console.log(ctaLayer);
+
   ctaLayer.setMap(map);
 })();
