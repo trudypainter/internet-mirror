@@ -22,12 +22,11 @@ const apiOptions = {
 };
 
 const mapOptions = {
-  tilt: 0,
+  tilt: 100,
   heading: 0,
   zoom: 18,
   center: { lat: 42.354362, lng: -71.090872 },
   mapId: "15431d2b469f209e",
-  disableDefaultUI: true,
 };
 
 async function initMap() {
@@ -72,7 +71,7 @@ function initWebGLOverlayView(map) {
     const latLngAltitudeLiteral = {
       lat: mapOptions.center.lat,
       lng: mapOptions.center.lng,
-      altitude: 100,
+      altitude: 80,
     };
 
     const matrix = transformer.fromLatLngAltitude(latLngAltitudeLiteral);
@@ -92,8 +91,24 @@ function initWebGLOverlayView(map) {
 
   const ctaLayer = new google.maps.KmlLayer({
     url: "https://raw.githubusercontent.com/trudypainter/internet-mirror/main/src/history-2022-10-07.kml",
+    suppressInfoWindows: true,
     map: map,
   });
+  console.log(ctaLayer);
+
+  ctaLayer.addListener("click", (kmlEvent) => {
+    const text = kmlEvent.featureData.description;
+    console.log(kmlEvent);
+    showInContentWindow(text);
+  });
+
+  function showInContentWindow(text) {
+    const sidebar = document.getElementById("sidebar");
+
+    sidebar.innerHTML = text;
+  }
+
+  // map.moveCamera({ titlt: 10, heading: 10, zoom: 180 });
 
   ctaLayer.setMap(map);
 })();
