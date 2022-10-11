@@ -20,11 +20,94 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Internet Mirror</title>
     <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <script src="./jquery.js"></script>
+    <script src="./togeojson.js"></script>
     <script src="./app.js" defer></script>
+    <script src="./cards.js" defer></script>
+    <!-- <script type="module" src="./cube.js"></script> -->
   </head>
   <body>
     <div id="map"></div>
     <div class="label">Internet Mirror</div>
-    <div id="sidebar"></div>
+    <!-- <div id="sidebar"></div> -->
+
+    <div id="play-by-play">
+      <section id="overview">
+        <h3>Friday, October 7 Overview</h3>
+        <p>
+          You had a long day today. You woke up at 7am and went to bed at 11pm.
+          You biked about 7 miles and visited MIT, Newbury Tailoring, and
+          Miracle of Science. You looked at a lot of Are.na, StackOverflow, and
+          listened to the playlist "Ahahah yooo."
+        </p>
+      </section>
+
+      <!-- <section id="1">
+        <h3>Morning at Home</h3>
+        <p>
+          You woke up around 7am and spent the morning looking at Are.na and
+          Canvas. You checked Instagram also. The whole time you were listening
+          to Beyonce.
+        </p>
+      </section>
+
+      <section id="2">
+        <h3>MIT Morning</h3>
+        <p>Then you biked to class at 10am. You looked at Biology on Canvas.</p>
+      </section>
+
+      <section id="3">
+        <h3>Newbury Tailoring</h3>
+        <p>Around 11am, you biked to Newbury Tailoring.</p>
+      </section>
+
+      <section id="4">
+        <h3>MIT Afternoon</h3>
+        <p>
+          At 12pm, you returned to MIT. You looked at Google Maps information.
+        </p>
+      </section>
+
+      <section id="5">
+        <h3>Home Afternoon</h3>
+        <p>You spent a couple hours at home. You went on Google Meet.</p>
+      </section>
+
+      <section id="6">
+        <h3>MIT Late Afternoon</h3>
+        <p>
+          You biked to MIT. You visited the Muddy, MIT Media Lab, and Miracle of
+          Science.
+        </p>
+      </section>
+
+      <section id="7">
+        <h3>Home Evening</h3>
+        <p>You biked back home. You looked at rental cars and Airbnbs.</p>
+      </section> -->
+    </div>
+
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+
+    <div id="popup">
+      <div id="popup-content">
+        <i>A truly personal computer hasn't been invented yet. </i>
+        <p>
+          Internet Mirror uses AI and forgtotten online metadata to explain your
+          day. Currently, it pulls from 3 different sources:
+        </p>
+        <ol>
+          <li>Location History (Google)</li>
+          <li>Web Browsing History (Google)</li>
+          <li>Music Listening (Spotify)</li>
+        </ol>
+        <p>
+          The following demo tells the story of my Friday, October 7th, 2022.
+        </p>
+        <div id="popup-close">Start Demo</div>
+      </div>
+    </div>
   </body>
 </html>

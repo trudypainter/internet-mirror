@@ -1,0 +1,383 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.093812, 42.349391499999996, 0]
+      },
+      "properties": {
+        "name": "Home (479 Commonwealth Ave)",
+        "address": "479 Commonwealth Ave, Boston, MA 02215",
+        "description": " Building from 2022-10-07T01:20:38.906Z to 2022-10-07T14:06:20.733Z. Distance 0m ",
+        "timespan": {
+          "begin": "2022-10-07T01:20:38.906Z",
+          "end": "2022-10-07T14:06:20.733Z"
+        },
+        "Email": "trudy.e.painter@gmail.com",
+        "Category": "Building",
+        "Distance": "0"
+      },
+      "timespan_sec": { "begin": 1665105638906, "end": 1665151580733 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-71.093812, 42.349391499999996, 0],
+          [-71.093812, 42.349391499999996, 0],
+          [-71.0946446, 42.3492521, 0],
+          [-71.0921748, 42.349262, 0],
+          [-71.0900101, 42.3519881, 0],
+          [-71.0921862, 42.3596998, 0],
+          [-71.0934221, 42.3590192, 0],
+          [-71.09338904953759, 42.35903515116286, 0],
+          [-71.09338904953759, 42.35903515116286, 0]
+        ]
+      },
+      "properties": {
+        "name": "Cycling",
+        "description": " Cycling from 2022-10-07T14:06:20.733Z to 2022-10-07T14:11:10.035Z. Distance 1630m ",
+        "timespan": {
+          "begin": "2022-10-07T14:06:20.733Z",
+          "end": "2022-10-07T14:11:10.035Z"
+        },
+        "Email": "trudy.e.painter@gmail.com",
+        "Category": "Cycling",
+        "Distance": "1630"
+      },
+      "timespan_sec": { "begin": 1665151580733, "end": 1665151870035 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-71.09338904953759, 42.35903515116286, 0],
+          [-71.09338904953759, 42.35903515116286, 0],
+          [-71.0924914, 42.359463, 0],
+          [-71.0890907, 42.3501008, 0],
+          [-71.0852592, 42.3488995, 0],
+          [-71.0852936, 42.349012699999996, 0],
+          [-71.0852936, 42.349012699999996, 0]
+        ]
+      },
+      "properties": {
+        "name": "Cycling",
+        "description": " Cycling from 2022-10-07T15:02:51.985Z to 2022-10-07T15:07:50.928Z. Distance 1520m ",
+        "timespan": {
+          "begin": "2022-10-07T15:02:51.985Z",
+          "end": "2022-10-07T15:07:50.928Z"
+        },
+        "Email": "trudy.e.painter@gmail.com",
+        "Category": "Cycling",
+        "Distance": "1520"
+      },
+      "timespan_sec": { "begin": 1665154971985, "end": 1665155270928 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.0852936, 42.349012699999996, 0]
+      },
+      "properties": {
+        "name": "Newbury Tailoring Co.",
+        "address": "299 Newbury St, Boston, MA 02115",
+        "description": " Tailor from 2022-10-07T15:07:50.928Z to 2022-10-07T15:16:24.000Z. Distance 0m ",
+        "timespan": {
+          "begin": "2022-10-07T15:07:50.928Z",
+          "end": "2022-10-07T15:16:24.000Z"
+        },
+        "Email": "trudy.e.painter@gmail.com",
+        "Category": "Tailor",
+        "Distance": "0"
+      },
+      "timespan_sec": { "begin": 1665155270928, "end": 1665155784000 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-71.0852936, 42.349012699999996, 0],
+          [-71.0852936, 42.349012699999996, 0],
+          [-71.0856684, 42.3490316, 0],
+          [-71.0909539, 42.3539526, 0],
+          [-71.0885844, 42.360781, 0],
+          [-71.0891077808266, 42.3610700942725, 0],
+          [-71.0891077808266, 42.3610700942725, 0]
+        ]
+      },
+      "properties": {
+        "name": "Cycling",
+        "description": " Cycling from 2022-10-07T15:16:24.000Z to 2022-10-07T15:20:16.358Z. Distance 1567m ",
+        "timespan": {
+          "begin": "2022-10-07T15:16:24.000Z",
+          "end": "2022-10-07T15:20:16.358Z"
+        },
+        "Email": "trudy.e.painter@gmail.com",
+        "Category": "Cycling",
+        "Distance": "1567"
+      },
+      "timespan_sec": { "begin": 1665155784000, "end": 1665156016358 }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-71.09416, 42.360091, 0] },
+      "properties": {
+        "name": "Massachusetts Institute of Technology",
+        "address": "77 Massachusetts Ave, Cambridge, MA 02139",
+        "description": " University from 2022-10-07T15:20:16.358Z to 2022-10-07T17:31:16.999Z. Distance 0m ",
+        "timespan": {
+          "begin": "2022-10-07T15:20:16.358Z",
+          "end": "2022-10-07T17:31:16.999Z"
+        },
+        "Email": "trudy.e.painter@gmail.com",
+        "Category": "University",
+        "Distance": "0"
+      },
+      "timespan_sec": { "begin": 1665156016358, "end": 1665163876999 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-71.0891077808266, 42.3610700942725, 0],
+          [-71.0891077808266, 42.3610700942725, 0],
+          [-71.0893825, 42.3611529, 0],
+          [-71.0885844, 42.360781, 0],
+          [-71.093486, 42.3590726, 0],
+          [-71.0934263, 42.3492333, 0],
+          [-71.093812, 42.349391499999996, 0],
+          [-71.093812, 42.349391499999996, 0]
+        ]
+      },
+      "properties": {
+        "name": "Cycling",
+        "description": " Cycling from 2022-10-07T17:31:16.999Z to 2022-10-07T17:38:36.999Z. Distance 1677m ",
+        "timespan": {
+          "begin": "2022-10-07T17:31:16.999Z",
+          "end": "2022-10-07T17:38:36.999Z"
+        },
+        "Email": "trudy.e.painter@gmail.com",
+        "Category": "Cycling",
+        "Distance": "1677"
+      },
+      "timespan_sec": { "begin": 1665163876999, "end": 1665164316999 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.093812, 42.349391499999996, 0]
+      },
+      "properties": {
+        "name": "Home (479 Commonwealth Ave)",
+        "address": "479 Commonwealth Ave, Boston, MA 02215",
+        "description": " Building from 2022-10-07T17:38:36.999Z to 2022-10-07T20:39:23.999Z. Distance 0m ",
+        "timespan": {
+          "begin": "2022-10-07T17:38:36.999Z",
+          "end": "2022-10-07T20:39:23.999Z"
+        },
+        "Email": "trudy.e.painter@gmail.com",
+        "Category": "Building",
+        "Distance": "0"
+      },
+      "timespan_sec": { "begin": 1665164316999, "end": 1665175163999 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-71.093812, 42.349391499999996, 0],
+          [-71.093812, 42.349391499999996, 0],
+          [-71.0935162, 42.3492388, 0],
+          [-71.0946185, 42.349272, 0],
+          [-71.0896795, 42.3516035, 0],
+          [-71.0874563, 42.3602763, 0],
+          [-71.09024720928136, 42.3593544390891, 0],
+          [-71.09024720928136, 42.3593544390891, 0]
+        ]
+      },
+      "properties": {
+        "name": "Cycling",
+        "description": " Cycling from 2022-10-07T20:39:23.999Z to 2022-10-07T20:45:44.833Z. Distance 1834m ",
+        "timespan": {
+          "begin": "2022-10-07T20:39:23.999Z",
+          "end": "2022-10-07T20:45:44.833Z"
+        },
+        "Email": "trudy.e.painter@gmail.com",
+        "Category": "Cycling",
+        "Distance": "1834"
+      },
+      "timespan_sec": { "begin": 1665175163999, "end": 1665175544833 }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-71.09416, 42.360091, 0] },
+      "properties": {
+        "name": "Massachusetts Institute of Technology",
+        "address": "77 Massachusetts Ave, Cambridge, MA 02139",
+        "description": " University from 2022-10-07T20:45:44.833Z to 2022-10-07T23:55:20.000Z. Distance 0m ",
+        "timespan": {
+          "begin": "2022-10-07T20:45:44.833Z",
+          "end": "2022-10-07T23:55:20.000Z"
+        },
+        "Email": "trudy.e.painter@gmail.com",
+        "Category": "University",
+        "Distance": "0"
+      },
+      "timespan_sec": { "begin": 1665175544833, "end": 1665186920000 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-71.09024720928136, 42.3593544390891, 0],
+          [-71.09024720928136, 42.3593544390891, 0],
+          [-71.0988132, 42.3625421, 0],
+          [-71.0960416, 42.361009, 0],
+          [-71.0935896, 42.3588768, 0],
+          [-71.0910551, 42.3539366, 0],
+          [-71.0914297, 42.3493066, 0],
+          [-71.0946826, 42.3492267, 0],
+          [-71.093812, 42.349391499999996, 0],
+          [-71.093812, 42.349391499999996, 0]
+        ]
+      },
+      "properties": {
+        "name": "Cycling",
+        "description": " Cycling from 2022-10-07T23:55:20.000Z to 2022-10-08T00:06:46.028Z. Distance 2828m ",
+        "timespan": {
+          "begin": "2022-10-07T23:55:20.000Z",
+          "end": "2022-10-08T00:06:46.028Z"
+        },
+        "Email": "trudy.e.painter@gmail.com",
+        "Category": "Cycling",
+        "Distance": "2828"
+      },
+      "timespan_sec": { "begin": 1665186920000, "end": 1665187606028 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.093812, 42.349391499999996, 0]
+      },
+      "properties": {
+        "name": "Home (479 Commonwealth Ave)",
+        "address": "479 Commonwealth Ave, Boston, MA 02215",
+        "description": " Building from 2022-10-08T00:06:46.028Z to 2022-10-08T00:27:07.405Z. Distance 0m ",
+        "timespan": {
+          "begin": "2022-10-08T00:06:46.028Z",
+          "end": "2022-10-08T00:27:07.405Z"
+        },
+        "Email": "trudy.e.painter@gmail.com",
+        "Category": "Building",
+        "Distance": "0"
+      },
+      "timespan_sec": { "begin": 1665187606028, "end": 1665188827405 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-71.093812, 42.349391499999996, 0],
+          [-71.093812, 42.349391499999996, 0],
+          [-71.093398, 42.3486953, 0],
+          [-71.0906782, 42.3487353, 0],
+          [-71.0855046, 42.3485352, 0],
+          [-71.0840861, 42.3484566, 0],
+          [-71.0840861, 42.3484566, 0]
+        ]
+      },
+      "properties": {
+        "name": "Cycling",
+        "description": " Cycling from 2022-10-08T00:27:07.405Z to 2022-10-08T00:31:40.139Z. Distance 850m ",
+        "timespan": {
+          "begin": "2022-10-08T00:27:07.405Z",
+          "end": "2022-10-08T00:31:40.139Z"
+        },
+        "Email": "trudy.e.painter@gmail.com",
+        "Category": "Cycling",
+        "Distance": "850"
+      },
+      "timespan_sec": { "begin": 1665188827405, "end": 1665189100139 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.0840861, 42.3484566, 0]
+      },
+      "properties": {
+        "name": "Trader Joe's",
+        "address": "899 Boylston St, Boston, MA 02115",
+        "description": " Grocery store from 2022-10-08T00:31:40.139Z to 2022-10-08T00:58:22.031Z. Distance 0m ",
+        "timespan": {
+          "begin": "2022-10-08T00:31:40.139Z",
+          "end": "2022-10-08T00:58:22.031Z"
+        },
+        "Email": "trudy.e.painter@gmail.com",
+        "Category": "Grocery store",
+        "Distance": "0"
+      },
+      "timespan_sec": { "begin": 1665189100139, "end": 1665190702031 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-71.0840861, 42.3484566, 0],
+          [-71.0840861, 42.3484566, 0],
+          [-71.084628, 42.3483534, 0],
+          [-71.0887744, 42.3490996, 0],
+          [-71.0913945, 42.3488975, 0],
+          [-71.094377, 42.3489555, 0],
+          [-71.093812, 42.349391499999996, 0],
+          [-71.093812, 42.349391499999996, 0]
+        ]
+      },
+      "properties": {
+        "name": "Cycling",
+        "description": " Cycling from 2022-10-08T00:58:22.031Z to 2022-10-08T01:06:58.430Z. Distance 925m ",
+        "timespan": {
+          "begin": "2022-10-08T00:58:22.031Z",
+          "end": "2022-10-08T01:06:58.430Z"
+        },
+        "Email": "trudy.e.painter@gmail.com",
+        "Category": "Cycling",
+        "Distance": "925"
+      },
+      "timespan_sec": { "begin": 1665190702031, "end": 1665191218430 }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.093812, 42.349391499999996, 0]
+      },
+      "properties": {
+        "name": "Home (479 Commonwealth Ave)",
+        "address": "479 Commonwealth Ave, Boston, MA 02215",
+        "description": " Building from 2022-10-08T01:06:58.430Z to 2022-10-08T02:50:50.999Z. Distance 0m ",
+        "timespan": {
+          "begin": "2022-10-08T01:06:58.430Z",
+          "end": "2022-10-08T02:50:50.999Z"
+        },
+        "Email": "trudy.e.painter@gmail.com",
+        "Category": "Building",
+        "Distance": "0"
+      },
+      "timespan_sec": { "begin": 1665191218430, "end": 1665197450999 }
+    }
+  ]
+}
