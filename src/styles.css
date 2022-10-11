@@ -76,9 +76,34 @@ section:hover h3 {
 }
 
 #play-by-play section {
-  height: 200px;
+  position: relative;
+  min-height: 200px;
   background-color: white;
   padding: 10px 20px;
   margin: 10px;
   border: 4px solid black;
+}
+
+#play-by-play button {
+  outline: none;
+  border: 0px solid white;
+  background-color: white;
+  float: bottom;
+  padding: 0px;
+
+  position: absolute;
+  bottom: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  overflow-y: scroll;
+  height: 200px;
+  background-color: rgb(241, 241, 241);
 }
